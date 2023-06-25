@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Header } from '../../'
+// import { Button, Header } from '../../'
 
 const inARestaurant = [
   {
@@ -48,15 +48,16 @@ const inARestaurant = [
 export function HomePage () {
   return (
     <>
-      <Header text='Mandarino' />
+      <h1> Mandarino </h1>
       <p>mandarino helps you learn mandarin fast and fun</p>
-      <Button
+      <button
         onClick={() => {
           alert('mandarino')
         }}
         className=''
-        text='search'
-      />
+      >
+        search
+      </button>
     </>
   )
 }
