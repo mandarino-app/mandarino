@@ -1,10 +1,16 @@
-import { Button, Header } from "ui";
+import { Button, Header } from 'ui'
 
-export default function Page() {
+export default function Page () {
   return (
     <>
-      <Header text="Web" />
-      <Button />
+      <Header text='Web' />
+      <Button
+        onClick={() => {
+          alert('mandarino')
+        }}
+        className=''
+        text='search'
+      />
     </>
-  );
+  )
 }
