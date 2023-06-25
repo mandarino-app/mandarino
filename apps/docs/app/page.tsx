@@ -1,10 +1,4 @@
-import { Button, Header } from "ui";
+'use client'
+import { HomePage } from 'ui/pages'
 
-export default function Page() {
-  return (
-    <>
-      <Header text="Docs" />
-      <Button />
-    </>
-  );
-}
+export default HomePage
