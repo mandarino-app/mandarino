@@ -1,5 +1,3 @@
-import * as React from "react";
-
 // component exports
-export * from "./Button";
-export * from "./Header";
+export * as Button from './Button'
+export * as Header from './Header'
