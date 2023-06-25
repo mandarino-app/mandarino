@@ -1,16 +1,3 @@
-import { Button, Header } from 'ui'
+import { HomePage } from 'ui/pages'
 
-export default function Page () {
-  return (
-    <>
-      <Header text='Web' />
-      <Button
-        onClick={() => {
-          alert('mandarino')
-        }}
-        className=''
-        text='search'
-      />
-    </>
-  )
-}
+export default HomePage
