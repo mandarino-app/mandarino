@@ -1,5 +1,7 @@
 # Mandarino License 1.0: June 25th, 2023
 
+BSD 3-clause "New" or "Revised" license
+
 Licensor: Mandarino, Inc.
 
 https://mandarino.io/license
